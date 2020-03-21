@@ -1,3 +1,3 @@
-import './css/signin.css';
+import './styles/index.css';
 
-console.log('index');
+document.querySelector('.js-index') && import('./js/index/index').then(resolve => resolve.initIndexPage());
