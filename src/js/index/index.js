@@ -1,6 +1,6 @@
 import '../../styles/pages/index.css';
-import animation from './animation';
+import animation from './animation/index.js';
 
 export const initIndexPage = () => {
-    animation();
+    animation.init();
 };

@@ -28,7 +28,7 @@ const webpackDev = {
         open: true,
         compress: true,
         hot: true,
-        port: 9999
+        port: 8888
     },
     plugins: [new webpack.HotModuleReplacementPlugin()]
 };
